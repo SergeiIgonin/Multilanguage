@@ -19,4 +19,4 @@ jobs:                                         # задания (алгоритм
         - name: Install dependensies
           run: pip install -r requirements.txt
         - name: Run tests
-          run: pytest -sv
+          run: pytest -v --tb=line --language=es
