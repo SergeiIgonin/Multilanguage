@@ -1,3 +1,5 @@
+"Вариант запуска тестов в разных языковых версиях сайта"
+
 import pytest
 from selenium import webdriver
 
